@@ -1,2 +1,2 @@
-About the club: <a href="ingrahamgwc.github.io">ingrahamgwc.github.io</a>
+About the club: <a href="https://ingrahamgwc.github.io">ingrahamgwc.github.io</a>
 
