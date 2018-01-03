@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SUCCULENTS</title>
+        <style>
+            body{margin:12%;
+            line-height:150%;
+            }
+		#table-of-contents{position:fixed
+		background-color:rgb(49, 204, 204)}
+		
+		#toc-title{font-size:30px;}
+		
+		#title{font-family:"phosphate";
+				font-size:50px;
+				background-color:rgb(194, 252, 213);
+				position:relative;
+				padding:25px;
+				margin-top:-50px;
+				left:-55px;
+            }
+			
+			#body{font-family:"georgia";
+                position:relative;
+            }
+            
+			.smaller-title{font-family:"herculanum";}
+			.image{border:5px double rgb(123,34,169);}
+			#intro{background-color:rgb(161, 237, 237);
+			    padding:10px;
+			    margin:0px;
+			    right:89px;
+			}
+			#aloe-img{float:right;
+			}
+			#note{background-color:rgb(207, 252, 252);
+			      padding:5px;
+			}
+			#the-end{font-family:fantasy;
+			    font-size:35px;
+			}
+			
+        </style>
+    </head>
+    <body>
+    
+	    <p id="table-of-contents"><span id="toc-title">All About Succulents!<span>     <a href="#care">Care</a>     <a href="varieties">Varieties</a>     <a href="outdoor-succulents">Outdoor Succulents</a>     <a href="fun-facts">Fun Facts!</a></p>
+	    
+	<h1 id="title"> All About Succulents!</h1>
+     
+        <span id="body"><h3><strong>By Tess, creator of <a href="https://www.khanacademy.org/computer-programming/doge/4773786500661248"> <em>DOG</em></a></strong></h3>
+    
+        <p id="intro">Succulents are a drought tolerant variety of plant with thick, fleshy leaves. They are fun to take care of, aesthetically pleasing, and can even reduce stress! This webpage will teach you how to take care of indoor and outdoor succulents, the different types of succulents, and some interesting facts about these fascinating plants. Enjoy!
+     
+    <h2 class="smaller-title" id="care">Care</h2>
+    <h3>Potting</h3>
+        <p>Plants will generally survive inside the plastic containers that you bought them in, but they can be replanted in a different container if you feel the need to. Here are the steps to successfully repotting a succulent:
+            <ol><li>Carefully loosen the soil by squeezing the container on opposite sides.</li>
+                <li>Remove the succulent from its container, trying to keep as much of the soil intact as possible.</li>
+                <li>Insert the succulent into the new pot, adding more soil if needed, and water it a little so the soil can pack down.</li>
+            </ol>
+            <ul><li>Make sure to pay extra attention to a newly potted succulent, watering them when needed and providing them with ample sunlight so they can adjust to their new pot.</li>
+            </ul>
+
+    <h3>Watering</h3>
+        <p>Succulents need to watered every couple weeks, or whenever the soil is dry to the touch. As you can tell from the photo below, succulents' leaves are primarily made of water, so you will be able to tell if you have neglected your succulents because the leaves will start to shrivel up. Water succulents with a gentle stream of water, so the leaves aren't damaged, and make sure the soil is soaked through.</p>
+            <ul><li>Keep in mind that succulents in pots with drainage holes will be easier to take care of because you can tell how much you have watered them based on the amount of water leaving the base of the pot. With pots without drainage holes, there's a possibility of the succulent being overwatered and the water sitting at the bottom of the pot and causing the succulent's roots to rot.</li>
+            </ul>
+        <img id="aloe-img" class="image"  src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Split_Aloe.jpg"alt="All succulent plants, such as this Aloe, store water in their fleshy leaves"width="200"><br><p><em id="note">All succulent plants, such as this <strong>Aloe</strong>, store water in their fleshy leaves.</em></p>
+    <h3>Light</h3>
+        <p>Succulents need a fair amount of sunlight to flourish. If a plant does not have access to enough sunlight, the leaves will visibly wilt and the plant will eventually die. In extremely hot locations, plants may need some afternoon shade so their leaves aren't scorched.</p>
+        <img class="image" src="http://pistilsnursery.com/wp-content/uploads/2016/05/care-for-succulents-pistils-nursery-5.jpg"alt="As you can see from the succulent on the left, when a succulent does not have access to enough light it starts to stretch to try and reach for more light. This gives it a rather unsightly appearance, compared to the succulent on the right is growing normally."width="200"><p><em id="note">As you can see from the succulent on the left, when a succulent does not have access to enough light it starts to stretch to try and reach for more light. This gives it a rather unsightly appearance, compared to the succulent on the right that is growing normally.</em></p>
+    
+    <h3>Fertilizer</h3>
+        <p>Fertilizer isn't necessary to a healthy succulent, but it can help with freshly propagated or repotted succulents. A brand of your choice should be lightly sprinkled over the soil about once a month. Fertilizer can, however, burn your succulents leaves, as seen on the plant below.
+    </p><img class="image" src="https://i.pinimg.com/736x/cc/e7/33/cce7334d4085224d178a0e1edea13a09--succulent-plants-succulents.jpg"alt="Brownish blemishes on a succulent's leaves demonstrate that it has suffered fertilizer burns."width="200"><br><em id="note">Brownish blemishes on a succulent's leaves demonstrate that it has suffered fertilizer burns.</em>
+    
+    <h3>Getting Rid of Pests</h3>
+        <p>As with any plant, indoor or outdoor, you're going to have a few pests that will plague your succulents. Even though succulents are very hard to kill, that doesn't mean they will be immune to pests. Here are some of the most common blights and how to treat them.
+            <br><br><em id="note">Note: As with any remedies, it is better for the environment and your succulents to use natural versions. Any of these methods may have chemcial alternatives that you can purchase at your local nursery, but it is recommended you use the organic methods listed below.</em>
+            <ul>
+                <li><strong>Mealy bugs</strong>: Mealy bugs are distinguished by the white fuzz they leave on your plant. They may appear harmless at first, but if they continue reproducing they can literally suck the life out of your succulent. Treat them by using a Q-tip® or an old paintbrush to brush rubbing alcohol over the white fuzz.</li>
+                <li><strong>Spider mites</strong>: Spider mites are difficult to spot because they are extremely small and hard to see, but if you find that your succulent is developing yellow or rust colored scars then you know you have spider mites. They cannot be treated by regular pesticides because they are spiders and are immune to most chemicals that would kill off normal insects, so the way you can get rid of them is by removing their webs, which may appear between the leaves of your succulent, and taking the bugs themselves off your plant if you see any. You may want to take your succulent away from any other plant life lest the spider mites spread to those as well. If your succulent can withstand the high pressure, it helps to blast it with a hose to remove the mites.</li>
+                <li><strong>Fungus gnats</strong>: Fungus gnats are the most common houseplant pest, and are similar to fruit flies except that they inhabit wet plant soil and drains. Adults lay eggs in the soil and the young will feed on the roots of your plants. Since the eggs are lain in the top quarter inch of moist soil, letting your succulents soil dry completely out before their next watering or covering it with sand, rocks, or glass chips can help prevent the gnats from reproducing. You can also create a trap for them by putting some vinegar in a glass, adding a couple of drops of dish soap, and covering it with some plastic wrap with holes in it. They will fly into the jar and become trapped because they are attracted to the vinegar.</li>
+            </ul>
+            <img class="image" src="http://www.iremovepest.com/wp-content/uploads/2016/01/gnats-in-houseplant-soil.jpg"alt="An infestation of fungus gnats plagues an otherwise sublime succulent rosette."width="200">
+            <p><em id="note">An infestation of fungus gnats plagues an otherwise sublime succulent rosette.</em></p>
+
+    <br><h2 class="smaller-title" id="varieties">Varieties</h2>
+    
+    <h3>Indoor</h3>
+    
+        <p>Indoor succulents are fun to have around and easy to care for. Here are five fun and fairly common varieties that are sure to brighten up a room!</p>
+        <ul><li><strong>Burro's Tail</strong>: This succulent looks best in hanging baskets, and can grow up to three feet long.</li>
+            <li><strong>Christmas Cactus</strong>: Christmas Cacti generally only bloom during the winter, hence the name, but it only need 12 to 14 hours of uninterrupted darkness to bloom, so if you really wanted to you could force it to bloom by covering it and preventing the entry of light.</li>
+            <li><strong>Crown of Thorns</strong>: A popular import from Madagascar, Crown of Thorns can bloom year-round if given enough light.</li>
+            <li><strong>Hens and Chicks</strong>: This is actually two closely related but different succulents that share a common name. They work great in succulent wreaths!</li> 
+            <li><strong>Jade plant</strong>: This South-African native is known for being an extremely easy to grow succulent! It has glossy green leaves that are tinged with red.</li>
+        </ul>
+   <em>Here are some helpful websites with more information:</em>
+        <ul><li><a href="http://www.bhg.com/gardening/houseplants/projects/top-10-succulents-for-home/">Top 10 Indoor Succulents</a></li>
+            <li><a href="http://www.diynetwork.com/how-to/outdoors/gardening/growing-succulents-indoors">Growing Succulents Indoors</a></li></ul>
+  
+    <h3>Outdoor</h3>
+   
+        <p>Outdoor succulents are a great way to brighten up your garden with some fun designs and colors. Here are five of the most common outdoor succulent varieties.
+        <ul><li><strong>Sedum</strong>: There are few plants more forgiving of sun and bad soil than sedum plants. There are many different colorful varieties of sedum that are all very easy to grow.</li>
+            <li><strong>Echeveria</strong>: The leaves of Echeveria succulents are fleshy and have a waxy cuticle on the exterior. They can endure long periods of drought and have over 150 cultivated varieties.</li>
+            <li><strong>Kalanchoe</strong>: Kalanchoe have very thick leaves and are native to Madagascar. If properly taken care of, they can provide bright and colorful flowers for several seasons.</li>
+            <li><strong>Aeonium</strong>: Aeoniums have a unique rosette shape. They can grow through freezing temperatures, and in indoor OR outdoor environments!</li>
+            <li><strong>Aloe</strong>: Aloe plants have been grown and used as medicinal purposes for thousands of years. You can use it in your own household to treat minor burns and rashes.</li>
+        </ul>
+                <img class="image" src="https://i.pinimg.com/736x/51/73/7d/51737db1a30b20b4b96b52c4447975cf--sloped-garden-garden-stairs.jpg"width="300">
+                    <p><em id="note">Sedum succulents accentuate a colorful outdoor succulent garden.</em></p>
+ 
+   <em>Here are some helpful websites with more information:</em>
+   <ul><li><a href="https://www.gardeningknowhow.com/ornamental/cacti-succulents/scgen/outdoor-succulent-garden.htm">Outdoor Succulent Varieties and How to Care for them</a></li>
+       <li><a href="http://www.topinspired.com/top-10-diy-outdoor-succulent-garden-ideas/">Outdoor Succulent Design Ideas</a></li>
+   </ul>
+
+    <br><h2 class="smaller-title" id="outdoor-succulents">Outdoor Succulents</h2>
+        <p>So we've learned a lot of information, but this mainly applies to indoor succulents. Outdoor succulents are pretty similar, but there are different varieties and they take different care. Outdoor succulents bring  fun shapes and textures to your garden and are pretty easy to care for. Let's learn how you can make your very own outdoor succulent garden.</p>
+    
+    <h3>Care</h3>
+        <p>Even though succuelents can endure long periods without access to water if they need to, it's best to regularly water them during the growing season, which is Spring to Fall for most plants. Water them just as you would indoor succulents: When the water is dry to the touch a few inches down, water thoroughly and then let the soil dry out again. Here are some tips for caring for your outdoor succulents.</p>
+            <ul>
+                <li>The most common problem with outdoor succulents, and the reason many think they are high maintenance plants, is that they can rot pretty easily if cared for improperly. Let the soil dry completely between waterings. Keep the stems out of the soil and water at the base of the plant so the leaves don't get wet.</li>
+                <li>Check your plants regularly for insect infestations and treat them properly if they appear.</li>
+                <li>Remove dead stems and leaves to make way for new growth.</li>
+                    <ul type="square">
+                        <li>If you have a new offset, you can easily start it as a new plant by putting in a pot of well drained potting mix and paying special attention to it until the roots appear healthy and strong. Then you can add it to the garden!</li>
+                    </ul>
+            </ul>
+    <h3>Design</h3>
+        <p>There are many factors you need to consider when designing an outdoor succulent garden. Make you sure you research succulent varieties before purchasing them so you are sure they will thrive in their environment. Some of these are:</p>
+            <ul>
+                <li>Location: Succulents have to be in an area where you will have access to them so you can water them. Most succulents also need plenty of light, so they can't be under large trees or shrubs. However, some succulents can be planted in shady or dappled areas.</li>
+                    <ul type="square">
+                        <li>Configuration: When arranging your succulents, one factor you should take into account is the color. Succulents come in virtually any color of the rainbow, so you'll need to pick colors that go well together.
+                            <br><img class="image" src="https://i.pinimg.com/736x/c7/41/0a/c7410a01aaa4054bc589663677075910--colorful-succulents-outdoor-potted-succulents.jpg"width="300">
+                            <br>Another factor to consider is the physical attributes of the succulents you are planting. A helpful acronym to remember is "Thriller, Filler, Spiller". This means you put the bigger succulents, or the grand center pieces, in the middle of your arrangement. Then you work your way outwards, using smaller specimens as fillers between the larger plants. Finally, along the edges of the arrangement, plant spillers, or trailing succulents. Here's a couple of examples.</li>
+                                <img class="image" src="https://i.pinimg.com/originals/46/3b/b7/463bb7fab129a8eeffda893762c46477.jpg"width="200">
+                                <img class="image" src="https://i.pinimg.com/736x/ff/9f/46/ff9f4691aba0669693c20a22c81e68cc--fall-container-plants-succulent-containers.jpg"width="200">
+                                <img class="image" src="https://i.pinimg.com/236x/09/75/5d/09755df9fee55ae04f969cfd59db98bc--potted-succulents-succulent-gardening.jpg"width="200">
+                                <img class="image" src="https://i.pinimg.com/736x/a1/18/b8/a118b80400cdbf8e6efd3a70ca2e3963--succulent-arrangements-succulents.jpg"width="200">
+                        <li>Moisture level: Remember, if succulents are directly beneath a drainage pipe or next to a different source of water, you will have to water them elss. Take into account how much water the succulents already have access to when watering them and planning what type of succulents to purchase.</li>
+                    </ul>
+                <li>Soil type: A good formula for a succulent soil mix is two parts normal potting soil, one part perlite (a volcanic glass with a relatively high water content), and one part small gravels (For example, pumice, turface, or crushed granite.) You can also just use a 1 to 1 mixture of potting soil and perlite.</li>
+                <li>The types of plants you are using are important too. There are many different varieties of outdoor succulents. Cacti are a type of succulent that have spiky stems and pads. They are not the best choice if you have pets that they could harm. There are other types of succulents with smoother textures, and some that are spreading, trailing, or drooping. Plan accordingly for plants of different sizes, because if cared for properly succulents can grow quite large.</li>
+            </ul>
+                        <p><em id="note">Take a look at <a href="https://thesucculentsource.com/pages/succulent-types">this website</a> to see just how many succulent and cactus varieties there are.</em></p>
+        <p><em>For more information about designing outdoor succulent gardens, visit <a href="https://www.gardeningknowhow.com/ornamental/cacti-succulents/scgen/outdoor-succulent-garden.htm">Outdoor Succulent Gardens</a></em></p>
+    <h3>How to Plan for your Garden</h3>
+        <p>Before you start planting your succulents, you need to know which plants are going where and the location of your garden. It needs to be in a sunny location (see <em>LOCATION</em> above) and the soil needs to have proper drainage. </p>
+            <ul>
+                <li>Check for drainage by digging a hole about a foot deep and fill it with water. If the water drains within half an hour, then the soil is porous enough to drain sufficient water. If it doesn't mix in, just add about three inches of sand or other gritty material and mix it into the soil.</li>
+            </ul>
+        <p>Begin your garden with taller specimens. Use smaller, or filler, succulents or cacti around the edges of the garden or in between the larger plants. For additional visual appeal, you can add a layer of pebbles or small rocks that complement the colors of the succulents. These also act as a layer of mulch that prevent weeds and conserve moisture, while still allowing the evaporation of excess water.</p>
+            <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Eze_jardin_exotique.JPG" alt="Some cool lookin' succulents" width="400">
+                 <p><em id="note">As you can see from these gardens, there are taller cacti in the center of the garden with smaller succulents going outwards.</em></p>
+    <br><h2 class="smaller-title" id="fun-facts">Fun Facts!</h2>
+        <ul>
+            <li>Succulents originate from dry desert locations that have long dry seasons, like Africa. This explains why they have adapted to store water in their, making them thick and fleshy.</li>
+                <img class="image" src="http://offroadinghome.com/imgcactus/YJ_nvIMAGE_118.jpg"width="200">
+            <li>The word succulent comes from the Latin word "<em>sucus</em>", meaning juice or sap. It nods to the unique leaves that these plants are known for and that help them survive extreme drought and heat.</li>
+                <img class="image" src="https://i.pinimg.com/736x/c4/c1/2a/c4c12ae308d62d14e23fe0c10a5c2689--blush-roses-plants-online.jpg"width="200">
+            <li>Succulents come in pretty much every color of the rainbow: obviously green, but even blue, purple, pink, orange, and red!</li>
+                <img class="image" src="https://i.pinimg.com/736x/94/2f/ff/942fff7c580629487b97cc7909b4c75d--planting-succulents-succulent-arrangements.jpg"width="200">
+            <li>Succulents are pretty much pest resistant, which is just one of the many reasons that they are extremely easy plants to care for! (If you're really having trouble keeping them alive, it might be those pesky fungus gnats. See above)</li>
+                <img class="image" src="https://cdn.shopify.com/s/files/1/1111/4656/products/cactus-2-assorted-cactus-1_grande.jpg?v=1491280380"width="300">
+                    <p id="note"><em>Pests are especially attracted to cacti.</em></p>
+            <li>YOU CAN CREATE INFINITE SUCCULENTS WITH JUST ONE SUCCULENT. Here's the math: You can take one succulent and propagate it, or cut off the top part of it, then let it dry, and replant it with some high quality fertilizer and potting soil. The section you propagated will grow into a new plant. Now you have two plants from the one you started with. If you let these fellas grow for a while, then you can propagate both of them. Now you have 4. Continue this process until you have infinite succulents.</li>
+                <br><img class="image" src="https://static1.squarespace.com/static/51945be4e4b05b135b14e8c4/t/51a9792ee4b08b27fbbedf65/1430836464324/succulent-leaf-baby-plants-how-to-propagate-succulents-from-leaves-and-cuttings-needlesandleaves_net.jpg"width="300">
+                    <p><em id="note">You can also create new succulents with leaf cuttings!</em></p>
+        </ul>
+    <p><em>For more information about these splendiferous plants, visit <a href="http://www.housebeautiful.com/lifestyle/gardening/g3441/interesting-facts-about-succulents/">10 Cool Facts About Succulents</a></em></p>
+    <br><img class="image" src="https://i.pinimg.com/736x/bd/69/92/bd6992ec30273f9eb9884e1ab61fb524--birthday-wishes-happy-birthday.jpg"width="300">
+    <p id="the-end">The End!</p>
+     </span>
+    </body>
+</html>
