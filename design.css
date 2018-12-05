@@ -5,11 +5,10 @@ padding: 0;
 overflow: hidden;
 }
 
-.menu {
-float: left;
-}
-
 .menu ul{
+list-style-type: none;
+}
+.menu ul il{
 list-style-type: none;
 }
 
