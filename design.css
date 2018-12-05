@@ -3,11 +3,14 @@
 list-style-type: none;
 padding: 0;
 overflow: hidden;
-background-color: #333;
 }
 
 .menu {
 float: left;
+}
+
+.menu ul{
+list-style-type: none;
 }
 
 .menu a {
