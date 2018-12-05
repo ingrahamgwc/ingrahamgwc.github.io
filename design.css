@@ -1,74 +1,74 @@
 
-	.navigation {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-	}
+.navigation {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
 
-	.menu {
-	float: left;
-	}
+.menu {
+float: left;
+}
 
-	.menu a {
-	 display: block;
-	 color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	}
+.menu a {
+ display: block;
+ color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
 
-	.menu a: hover{
-	color:white;
-	background-color:grey;
-	}
+.menu a: hover{
+color:white;
+background-color:grey;
+}
 
 body{font-family: Georgia, Times, serif;
-	margin: 0;
-	margin-top: 0;
-	background-color:white;
-	
-	margin-right:0;
-	margin-left:0;
+margin: 0;
+margin-top: 0;
+background-color:white;
 
+margin-right:10%;
+margin-left:10%;
+	}
+
+h1{font-family:Courier, Courier New, monospace;
+color: rgb(138, 5, 28);
+font-size: 48px;
 }
-	h1{font-family:Courier, Courier New, monospace;
-	color: rgb(138, 5, 28);
-	font-size: 48px;
-	}
-	h2{font-family:Impact, Haettenschweiler, fantasy;
-	letter-spacing: 0.2em
-	}
-	/*.onlinebullet{border-bottom: 2px groove black;
-	padding: 5px;
-	text-decoration: none;
-	}
-	#onlineresources{
-	width: 60%;
-	padding: 20px;
-	border-style: ridge;
-	border-color: black;
-	text-decoration: none;
-	background-color:white;
-	}	
-	#otherresources{
-	width: 60%;
-	padding: 20px;
-	border-style: ridge;
-	border-color: black;
-	text-decoration: none;
-	} */
-	h1{
-	border-style: solid;
-	border-radius: 8px;
-	border-width: 3px;
-	padding: 15px;
-	}
-	a{
-	color: rgb(138, 5, 28);
-	text-decoration: none;
-	}
-	a:hover{
-	color: rgb(128,0,0 );
-	}
+h2{font-family:Impact, Haettenschweiler, fantasy;
+letter-spacing: 0.2em
+}
+/*.onlinebullet{border-bottom: 2px groove black;
+padding: 5px;
+text-decoration: none;
+}
+#onlineresources{
+width: 60%;
+padding: 20px;
+border-style: ridge;
+border-color: black;
+text-decoration: none;
+background-color:white;
+}	
+#otherresources{
+width: 60%;
+padding: 20px;
+border-style: ridge;
+border-color: black;
+text-decoration: none;
+} */
+h1{
+border-style: solid;
+border-radius: 8px;
+border-width: 3px;
+padding: 15px;
+}
+a{
+color: rgb(138, 5, 28);
+text-decoration: none;
+}
+a:hover{
+color: rgb(128,0,0 );
+}
