@@ -8,6 +8,7 @@ ul.navigation{
 }
 .navigation li {
   float: left;
+  margin:15px;
 }
 .navigation li a {
   display: block;
@@ -17,6 +18,7 @@ ul.navigation{
 }
 .navigation li a:hover {
   background-color: #111;
+  color:white;
 }
 .navagation{
   list-style-type: none;
