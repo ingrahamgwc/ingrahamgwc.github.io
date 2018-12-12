@@ -11,13 +11,16 @@
 }
 .navigation li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 .navigation li a:hover {
   background-color: #111;
+}
+.navagation{
+  list-style-type: none;
 }
 
 body{
