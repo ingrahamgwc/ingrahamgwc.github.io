@@ -1,57 +1,184 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
+<head>
+	<title>Girls Who Code</title>
+	<link type="text/css" rel="stylesheet" href="design.css" media="screen">
 	
-	<head>
-		<title>Girls Who Code:Links and Recommendations</title>
-		<link type="text/css" rel="stylesheet" href="design.css" media="screen">
-	</head>
-<body>
-	<ul class="navigation">
-	   <li class="menu"><a href="https://ingrahamgwc.github.io/index.html">Home</a></li>
-	   <li class="menu"><a href="https://ingrahamgwc.github.io/officer.html">Officer Bios</a></li>
-	   <li class="menu"><a class="active" href="https://ingrahamgwc.github.io/links.html">Links and Recommendations</a></li>
-	   <li class="menu"><a href="https://ingrahamgwc.github.io/calendar.html">Calendar</a></li>
+	 <link rel="stylesheet" href="somefile.css" type="text/css"/>
+        
+      <!-- Required meta tags for Bootstrap and JQuery -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS imports -->
+    <link href="./JokeAround-3.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/ui-lightness/jquery-ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.css">
+
+    <!-- JS Imports -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.js"></script>
+    <script>
+        // We've renamed the JQueryUI 'tooltip' and 'button' classes to 'uitooltip' and 'uibutton' so that they won't conflict with Bootstrap's 'tooltip' and 'button' classes.
+        $.widget.bridge('uitooltip', $.ui.tooltip);
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.js"></script>
+	
+</head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="home.html">
+          <img src="https://districtdispatch.org/wp-content/uploads/2017/08/GWC-logo.png" alt="girls who code logo" height="150px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link mx-4" href="index.html">Home </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link mx-4" href="calender.html">Calender</a>
+          </li>
+          
+        <li class="nav-item">
+            <a class="nav-link mx-4" href="officer.html">Officers</a>
+          </li>
+         
+         <li class="nav-item">
+            <a class="nav-link mx-4" href="links.html">Links<span class="sr-only">(current)</span></a>
+         </li>
+         
+         </ul>
+        
+      </div>
+    </nav>
+    
+
+    
+    
+    
+
+      
+
+
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#links" role="tab" aria-controls="home" aria-selected="true">Links and Recommendations</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#others" role="tab" aria-controls="profile" aria-selected="false">Other Resources</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" id="contact-tab" data-toggle="tab" href="#more" role="tab" aria-controls="contact" aria-selected="false">More to come</a>
+  </li>
 </ul>
-	 
-	<h1>Links and Recommendations</h1>
-		<p><i>There are many different websites, books, videos, and classes with resources about how to code. Here are some good places to start!</i></p>
-	<div id="onlineresources">
-	<h2>Online Resources</h2>
-	<ul>
-		<li><a href="https://www.codecademy.com/"><strong>Codecademy</strong></a></li>
-		<p class="onlinebullet">With over 45 million learners around the globe, Codecademy offers free classes in twelve different programming languages, including Java, JavaScript, Python, Ruby, SQL, HTML, and CSS.</p>
-		<li><a href="https://github.com/"><strong>GitHub</strong></a></li>
-		<p class="onlinebullet">GitHub is a web-based hosting service where you can learn, share, and work with 27 million others to build software. Developers from all over the world can use it to collaborate on computer code and create amazing projects.</p>
-		<li><a href="https://scratch.mit.edu/"><strong>Scratch</strong></a></li>
-		<p class="onlinebullet">On Scratch, created as a project by the MIT Media Lab, you can program your own interactive stories, games, and animations — and share your creations with others in the online community. It is a great opportunity to work collaboratively and think systematically.</p>
-		<li><a href="https://www.w3schools.com/"><strong>W3Schools</strong></a></li>
-		<p class="onlinebullet">W3Schools is a fantastic resource with tutorials on HTML, CSS, and JavaScript, references, and examples of code. It is the world's largest web developer site, and is the quickest resource if you're looking for a quick lesson or a specific  tag.</p>
-	</ul>
-	</div>
-	
-	<br>
-	
-	<div id="otherresources">
-	<h2>Other Resources</h2>
-		<h3>Scholarships</h3><ul>
-			<li><a href="https://www.tealsk12.org/students"><strong>TEALS</strong></a></li>
-		</ul>
-		<h3>Books</h3><ul>
-			<li>The Code Book by Simon Singh</li>
-		</ul>
-		<h3>Videos</h3><ul>
-			<li><a href="https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?referrer=playlist-talks_on_artificial_intelligen"><strong>How We're Teaching Computers to Understand Pictures</strong></a></li>
-		</ul>
-		<h3>Movies</h3><ul>
-			<li>The Imitation Game</li>
-			<li>Hidden Figures</li>
-		</ul>
-		<h3>Online Courses</h3><ul>
-			<li><a href="https://www.khanacademy.org/computing/computer-science/cryptography"><strong>Journey into Cryptography</strong></a></li>
-			<li><a href="https://www.khanacademy.org/computing/computer-science/informationtheory"><strong>Journey into Information Theory</strong></a></li>
-			<li><a href="https://www.khanacademy.org/computing/computer-science/algorithms"><strong>Algorithms</strong></a></li>
-			<li><a href="https://www.khanacademy.org/computing/computer-science/internet-intro"><strong>Internet 101</strong></a></li>
-		</ul>		
-	</div>
-</body>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="links" role="tabpanel" aria-labelledby="links-tab">
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">There are many different websites, books, videos, and classes with resources about how to code. Here are some good places to start!</p>
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Link</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Codecademy</th>
+      <td><a href="https://www.codecademy.com/" target="_blank">https://www.codecademy.com/</a></td>
+      <td>With over 45 million learners around the globe, Codecademy offers free classes in twelve different programming languages, including Java, JavaScript, Python, Ruby, SQL, HTML, and CSS.</td>
+    </tr>
+    <tr>
+      <th scope="row">GitHub</th>
+      <td><a href="https://github.com/" target="_blank">https://github.com/</a></td>
+      <td>GitHub is a web-based hosting service where you can learn, share, and work with 27 million others to build software. Developers from all over the world can use it to collaborate on computer code and create amazing projects.</td>
+    </tr>
+    <tr>
+      <th scope="row">Scratch</th>
+      <td><a href="https://scratch.mit.edu/" target="_blank">https://scratch.mit.edu/</a></td>
+      <td>On Scratch, created as a project by the MIT Media Lab, you can program your own interactive stories, games, and animations — and share your creations with others in the online community. It is a great opportunity to work collaboratively and think systematically.</td>
+    </tr>
+    <tr>
+      <th scope="row">W3Schools</th>
+      <td><a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a></td>
+      <td>W3Schools is a fantastic resource with tutorials on HTML, CSS, and JavaScript, references, and examples of code. It is the world's largest web developer site, and is the quickest resource if you're looking for a quick lesson or a specific  tag.</td>
+    </tr>
+    <tr>
+      <th scope="row">Code Combat</th>
+      <td><a href="https://codecombat.com/" target="_blank">https://codecombat.com/</a></td>
+      <td>CodeCombat is a game-based computer science program where students type real code and see their characters react in real time.</td>
+    </tr>
+  </tbody>
+</table>
+    
+</div>
+</div>
+  </div>
+  <div class="tab-pane fade" id="others" role="tabpanel" aria-labelledby="others-tab">
+      <table class="table table-hover ">
+  <thead>
+    <tr>
+      <th scope="col">Catagory</th>
+      <th scope="col">Name</th>
+      <th scope="col">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Scholarships</th>
+      <td>TEALS</td>
+      <td><a href="https://www.tealsk12.org/students"  target="_blank">https://www.tealsk12.org/students</a></td>
+    </tr>
+    <tr>
+      <th scope="row" >Books</th>
+      <td>The Code Book by Simon Singh</td>
+      <td><a href="https://simonsingh.net/books/the-code-book/"  target="_blank">https://simonsingh.net/books/the-code-book/</a></td>
+    </tr>
+    <tr>
+      <th scope="row" rowspan="2">Movies</th>
+      <td >The Imitation Game</td>
+      <td><a href="https://www.imdb.com/title/tt2084970/" target="_blank"> https://www.imdb.com/title/tt2084970/</a></td>
+    </tr>
+    <tr>
+      <!--<th scope="row">Movies</th>-->
+      <td >Hidden Figures</td>
+      <td><a href="https://www.imdb.com/title/tt4846340/" target="_blank">https://www.imdb.com/title/tt4846340/</a></td>
+    </tr>
+    <tr>
+      <th scope="row" rowspan="4">Online Courses</th>
+      <td >Journey into Cryptography</td>
+      <td><a href="https://www.khanacademy.org/computing/computer-science/cryptography" target="_blank">https://www.khanacademy.org/computing/computer-science/cryptography</a></td>
+    </tr>
+    <tr>
+      <td >Journey into Information Theory</td>
+      <td><a href="https://www.khanacademy.org/computing/computer-science/informationtheory" target="_blank">https://www.khanacademy.org/computing/computer-science/informationtheory</a></td>
+    </tr>
+    <tr>
+      <td >Algorithms</td>
+      <td><a href="https://www.khanacademy.org/computing/computer-science/algorithms" target="_blank">https://www.khanacademy.org/computing/computer-science/algorithms</a></td>
+    </tr>
+    <tr>
+      <td >Internet 101</td>
+      <td><a href="https://www.khanacademy.org/computing/computer-science/internet-intro" target="_blank">https://www.khanacademy.org/computing/computer-science/internet-intro</a></td>
+    </tr>
+    
+    
+    
+    
+  </tbody>
+</table>
+  </div>
+  <!--<div class="tab-pane fade" id="more" role="tabpanel" aria-labelledby="contact-tab">...</div>-->
+</div>
+  </body>
 </html>
