@@ -3,24 +3,72 @@
 <head>
 	<title>Girls Who Code</title>
 	<link type="text/css" rel="stylesheet" href="design.css" media="screen">
+	
+	 <link rel="stylesheet" href="somefile.css" type="text/css"/>
+        
+      <!-- Required meta tags for Bootstrap and JQuery -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS imports -->
+    <link href="./JokeAround-3.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/ui-lightness/jquery-ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.css">
+
+    <!-- JS Imports -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.js"></script>
+    <script>
+        // We've renamed the JQueryUI 'tooltip' and 'button' classes to 'uitooltip' and 'uibutton' so that they won't conflict with Bootstrap's 'tooltip' and 'button' classes.
+        $.widget.bridge('uitooltip', $.ui.tooltip);
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.js"></script>
+	
 </head>
   <body>
-    <ul class="navigation" style="z-index="1">
-      <li><a class="active" href="https://ingrahamgwc.github.io/index.html">Home</a></li>
-      <li><a href="https://ingrahamgwc.github.io/officers.html">Officer Bios</a></li>
-      <li><a href="https://ingrahamgwc.github.io/links.html">Links and Recommendations</a></li>
-      <li><a href="https://ingrahamgwc.github.io/calendar.html">Calendar</a></li>
-	<li><a href="https://ingrahamgwc.github.io/projects.html">Projects</a></li>
-    </ul>
-<img src="https://districtdispatch.org/wp-content/uploads/2017/08/GWC-logo.png" alt="girls who code logo" width="80%" style="z-index="-1">	
-	  
-    <div id="introduction">
-    <h1>Ingraham High School Girls Who Code!</h1>
-    <p>We are a fun club that meets every Wednesday in Room 200 from 2:30 to 4:00!
-      Come join us and learn how to make all of your coding dreams come true!
-	  Feel free to join!
-	    <br> All are welcome! No matter your coding experience or gender!
-    </p>
-    </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="home.html">
+          <img src="https://districtdispatch.org/wp-content/uploads/2017/08/GWC-logo.png" alt="girls who code logo" height="150px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link mx-4" href="index.html">Home </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link mx-4" href="calender.html">Calander</a>
+          </li>
+          
+        <li class="nav-item">
+            <a class="nav-link mx-4" href="officer.html">Officers</a>
+          </li>
+          
+         <li class="nav-item">
+            <a class="nav-link mx-4" href="link.html">Links</a>
+         </li>
+         
+         
+        </ul>
+        
+      </div>
+    </nav>
+    
+    
+    <span id="introduction" class="bd-example">
+            <span class="h1">Ingraham High School Girls Who Code!</span>
+            <span>We are a fun club that meets every Wednesday in Room 200 from 2:30 to 4:00!
+              Come join us and learn how to make all of your coding dreams come true!
+    	      Feel free to join!
+    	       All are welcome! No matter your coding experience or gender!
+            </span>
+        </span>
+         
   </body>
 </html>
