@@ -78,3 +78,11 @@ text-decoration: none;
 a:hover{
 color: rgb(128,0,0 );
 }
+
+#myVueApp{
+    padding: 3em;
+    font-size: xx-large;
+    font-family: monospace;
+    color: #03968b;
+	
+}
