@@ -23,7 +23,7 @@ new Vue({
     },
     welcomeMessage: function() {
       var now = new Date();
-      return "Hello Vue.js! It's " + now.toDateString();
+      return "Hello Coders! It's " + now.toDateString();
     }
   },
   
